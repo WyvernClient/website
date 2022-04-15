@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.scss'
 const Home: NextPage = () => {
 	return (
 		<>
-			<Seo title="Main Page" description="This is the main page!" bigImage={true}/>
+			<Seo title="Main Page" description="This is the main page!" bigImage={true} />
 			<h1>Hi!</h1>
 		</>
 	)

@@ -6,14 +6,14 @@ const Seo: React.FC<{
 	title?: string
 	description?: string
 	image?: string
-  bigImage?: boolean,
+	bigImage?: boolean
 	color?: string
 }> = ({
 	siteName = 'Wyvern',
 	title = 'Wyvern Client',
 	description = '',
 	image = 'https://wyvern.tk/icon.png',
-  bigImage = false,
+	bigImage = false,
 	color = '#3cb9ba',
 }) => {
 	return (
@@ -25,9 +25,9 @@ const Seo: React.FC<{
 			<meta content={title} property="og:title" />
 			<meta content={description} property="og:description" />
 			<meta content={image} property="og:image" />
-      {bigImage ? <meta name="twitter:card" content="summary_large_image"/> : ''}
+			{bigImage ? <meta name="twitter:card" content="summary_large_image" /> : ''}
 			<meta content={color} name="theme-color" />
-      <link type="application/json+oembed" href="/oembed.json" />
+			<link type="application/json+oembed" href="/oembed.json" />
 		</Head>
 	)
 }
