@@ -2,12 +2,19 @@ import type React from 'react'
 import Head from 'next/head'
 
 const Seo: React.FC<{
-	siteName?: string
-	title?: string
-	description?: string
-	image?: string
-	bigImage?: boolean
-	color?: string
+	siteName?: string,
+	title?: string,
+	homePage?: string,
+	description?: string,
+	longDescription?: string,
+	creator?: string,
+	icon?: string,
+	bigImage?: boolean,
+	color?: string,
+	contact?: string,
+	license?: string,
+	licenseUrl?: string,
+	twitterUsername?: string,
 }> = ({
 	siteName = 'Wyvern',
 	title = 'Wyvern Client',
