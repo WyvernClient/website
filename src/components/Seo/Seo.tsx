@@ -27,9 +27,9 @@ const Seo: React.FC<{
 	image = icon,
 	bigImage = false,
 	color = '#3cb9ba',
-	contact = '',
-	license = '',
-	licenseUrl = '',
+	contact = 'https://discord.com/invite/aZSrxwNUFD',
+	license = 'MIT',
+	licenseUrl = 'https://github.com/DarkGuy10/BotClient/blob/main/LICENSE',
 	twitterUsername = '',
 }) => {
 	return (
@@ -40,7 +40,7 @@ const Seo: React.FC<{
 			<meta content={siteName} name="application-name" />
 			<meta content={homePage} name="application-url" />
 			<meta content={contact} name="contact" />
-			<meta content={title} property="og:title" />
+			// <meta content={title} property="og:title" />
 			<meta content={description} name="description" />
 			<meta content={longDescription} property="og:description" />
 			<meta content={creator} name="creator" />
@@ -56,7 +56,7 @@ const Seo: React.FC<{
 			<link href={contact} rel="author" />
 			<link href={icon} rel="icon" />
 			<link href={licenseUrl} rel="licese" />
-			<link href="/oembed.json" type="application/json+oembed" />
+			<link type="application/json+oembed" href="/oembed.json" />
 		</Head>
 	)
 }
