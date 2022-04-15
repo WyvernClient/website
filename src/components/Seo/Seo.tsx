@@ -56,12 +56,7 @@ const Seo: React.FC<{
 			<link href={contact} rel="author" />
 			<link href={icon} rel="icon" />
 			<link href={licenseUrl} rel="licese" />
-			<link
-				rel="alternate"
-				type="application/json+oembed"
-				href="https://wyvernclient-git-fork-jerbear2008-embeds-wyvernclient.vercel.app/oembed.json"
-			/>
-			{/* temp */}
+			<link rel="alternate" type="application/json+oembed" href="https://wyvern.tk/oembed.json" />
 		</Head>
 	)
 }
