@@ -21,7 +21,6 @@ const Seo: React.FC<{
 			<title>
 				{title} | {siteName}
 			</title>
-			<meta content={siteName} property="og:site_name" />
 			<meta content={title} property="og:title" />
 			<meta content={description} property="og:description" />
 			<meta content={image} property="og:image" />
