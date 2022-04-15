@@ -9,6 +9,7 @@ const Seo: React.FC<{
 	longDescription?: string
 	creator?: string
 	icon?: string
+	image?: string
 	bigImage?: boolean
 	color?: string
 	contact?: string
