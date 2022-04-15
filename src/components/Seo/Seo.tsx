@@ -38,14 +38,14 @@ const Seo: React.FC<{
 				{title} | {siteName}
 			</title>
 			<meta content={siteName} name="application-name" />
-			<meta contnet={homePage} name="application-url" />
+			<meta content={homePage} name="application-url" />
 			<meta content={contact} name="contact" />
 			<meta content={title} property="og:title" />
 			<meta content={description} name="description" />
 			<meta content={longDescription} property="og:description" />
 			<meta content={creator} name="creator" />
 			<meta content={image} property="og:image" />
-			{bigImage ? <meta name="twitter:card" content="summary_large_image" /> : ''}
+			{bigImage ? <meta content="summary_large_image" name="twitter:card" /> : ''}
 			<meta content={color} name="theme-color" />
 			<meta content={license} name="license" />
 			<meta content={licenseUrl} name="license:uri" />
