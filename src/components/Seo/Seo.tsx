@@ -45,11 +45,10 @@ const Seo: React.FC<{
 			<meta content={longDescription} property="og:description" />
 			<meta content={creator} name="creator" />
 			<meta content={image} property="og:image" />
-			{bigImage ? <meta content="summary_large_image" name="twitter:card" /> : ''}
 			<meta content={color} name="theme-color" />
 			<meta content={license} name="license" />
 			<meta content={licenseUrl} name="license:uri" />
-			<meta content="summary" name="twitter:card" />
+			<meta content={bigImage ? 'summary_large_image' : 'summary'} name="twitter:card" />
 			<meta content={twitterUsername} name="twitter:creator" />
 			<meta content={twitterUsername} name="twitter:site" />
 			<meta content={longDescription} name="twitter:description" />
