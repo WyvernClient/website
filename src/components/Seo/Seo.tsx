@@ -40,7 +40,7 @@ const Seo: React.FC<{
 			<meta content={siteName} name="application-name" />
 			<meta content={homePage} name="application-url" />
 			<meta content={contact} name="contact" />
-			// <meta content={title} property="og:title" />
+			{/* <meta content={title} property="og:title" /> */}
 			<meta content={description} name="description" />
 			<meta content={longDescription} property="og:description" />
 			<meta content={creator} name="creator" />
