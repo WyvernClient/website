@@ -40,7 +40,7 @@ const Seo: React.FC<{
 			<meta content={siteName} name="application-name" />
 			<meta content={homePage} name="application-url" />
 			<meta content={contact} name="contact" />
-			{/* <meta content={title} property="og:title" /> */}
+			<meta content={title} property="og:title" />
 			<meta content={description} name="description" />
 			<meta content={longDescription} property="og:description" />
 			<meta content={creator} name="creator" />
@@ -56,7 +56,12 @@ const Seo: React.FC<{
 			<link href={contact} rel="author" />
 			<link href={icon} rel="icon" />
 			<link href={licenseUrl} rel="licese" />
-			<link type="application/json+oembed" href="/oembed.json" />
+			<link
+				rel="alternate"
+				type="application/json+oembed"
+				href="https://wyvernclient-git-fork-jerbear2008-embeds-wyvernclient.vercel.app/oembed.json"
+			/>
+			{/* temp */}
 		</Head>
 	)
 }
