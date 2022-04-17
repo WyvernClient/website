@@ -1,0 +1,7 @@
+# Allow everything by default
+user-agent: *
+allow: /
+
+# Block a specific page
+# user-agent: *
+# disallow: /login
